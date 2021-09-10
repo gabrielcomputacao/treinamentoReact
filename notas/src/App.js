@@ -1,6 +1,6 @@
 import React from 'react'
-import FormularioCadastro from './componentes/formularioCadastro';
-import ListaDeNotas from './componentes/listaDeNotas';
+import FormularioCadastro from './componentes/formulario/formularioCadastro';
+import ListaDeNotas from './componentes/listadeNota/listaDeNotas';
 
 /* componente */
 function App() {

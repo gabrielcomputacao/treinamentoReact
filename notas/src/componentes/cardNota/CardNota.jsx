@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
+import "./estiloNotas.css"
 
 export default class CardNota extends Component {
 
     render() {
         return (
-            <section>
+            <section className="nota">
                 <header>
                     <h3>titulo</h3>
                 </header>
@@ -14,3 +14,9 @@ export default class CardNota extends Component {
         )
     }
 }
+
+/* como o class ja é palavra reservada do react para criar classes extendendo 
+do componentes, entao para atribuir classes as tags htmls que sao jsx coloca-se
+className
+*/
+
